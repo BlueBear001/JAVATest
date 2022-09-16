@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>学习记录</title>
+  <style>
+    /*全选：*/
+    *{
+      margin: 0;
+      padding: 0;
+    }
+
+    /*id选择器：*/
+      #box00{
+         width: 200px;
+         height: 200px;
+         background: red;
+        /*设置外边距
+        设置上 右 下 左的外边距
+
+        margin: 40px 30px 20px 80px;
+        当缺失一个的话，与对面保持一致：上对下，左对右。
+        margin: 40px 30px 20px ;
+        缺失两个，确定上右的值，对应出现下左的值。
+        margin: 40px 30px ;
+        只有一个的话，代表四个的值一样。
+        margin: 40px ;
+        */
+        margin: 0;
+        /*内边距  语法同margin*/
+        padding: 20px;
+        box-sizing: border-box;
+      }
+
+      #box01{
+        background: yellow;
+        padding-left: 30px;
+      }
+  </style>
+
+    <link rel="stylesheet" href="../css/common.css">
+
+</head>
+<body>
+    <div id="box00">
+          史前文明
+      <div id="box01">
+        史前文明
+      </div>
+    </div>
+      <a href=" ">史前文明</a>
+
+</body>
+</html>

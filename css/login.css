@@ -1,0 +1,79 @@
+#app{
+          width: 400px;
+          background: #fafafa;
+            /*外边距上下150px  auto自动*/
+          margin:150px auto ;
+          /*设置角的弧度*/
+          border-radius: 20px;
+
+          /*设置盒子的阴影 向左偏移，向下偏移  ，模糊程度，阴影颜色*/
+          box-shadow: 0px 0px 15px #ccc;
+}
+
+
+#title{
+  /*宽度默认100%*/
+  height: 50px;
+  background: #eee;
+  /*设置左上，右上，左下，右下的圆角弧度*/
+  border-radius: 20px 20px 0 0;
+  /*
+  设置行高：
+  行高与div块的高度一致，字体将显示在div的正中间。
+  */
+  line-height: 50px;
+  /*设置内边距*/
+  padding-left: 30px;
+}
+
+
+.form-item{
+  width: 90%;
+  margin: 20px auto;
+  background: #fafafa;
+  height: 50px;
+  line-height: 50px;
+}
+
+.form-item >input{
+  /*设置外边距*/
+  margin-left: 10px;
+  width: 260px;
+  padding: 8px;
+  border-radius: 5px;
+  /*取消选中外边框*/
+  outline: none;
+  /*边框*/
+  border: 0px  ;
+  /*向右浮动*/
+  float: right;
+  /*向右浮动以后，无法居中，手调设置外边距*/
+  margin-top: 7px;
+}
+
+
+.main{
+      padding-top: 30px;
+      padding-bottom: 30px;
+
+}
+
+.login-btn{
+  width: 80%;
+  height: 40px;
+  background: darkseagreen;
+
+  margin: 20px auto;
+  /*设置成块级标签，实现居中*/
+  display:block;
+  color: white;
+  font-size: 20px;
+
+  /*设置圆角*/
+  border-radius: 10px;
+  /*设置边框的像素为0 ，即不显示边框*/
+  border: 0px  ;
+  /*当鼠标停留在按钮上的时候，更改鼠标的图像为 “ 小手” */
+  cursor: pointer;
+
+}
